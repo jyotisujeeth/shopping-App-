@@ -34,6 +34,7 @@ const Form = () => {
 
       <label placeholder="please select size">Size</label>
       <select ref={desRef}>
+        <option>please select size</option>
         <option>S</option>
         <option>M</option>
         <option>L</option>

@@ -27,7 +27,7 @@ const Cart = (props) => {
               Close
             </Button>
             <Button variant="primary" onClick={handleClose}>
-              Save Changes
+             Add changes
             </Button>
           </Modal.Footer>
         </Modal>
