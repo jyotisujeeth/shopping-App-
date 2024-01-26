@@ -24,20 +24,19 @@ const Form = () => {
 
   return (
     <form className={classes.form}>
-      <label>Medicine</label>
+      <label>Type of shoes</label>
       <select ref={candyRef}>
-        <option>Medicine</option>
-        <option>Paracetamol</option>
-        <option>Vicks</option>
-        <option>Dolo</option>
+        <option>Asian men</option>
+        <option>Action Men</option>
+        <option>Zoom Shoes</option>
+        <option>crocs</option>
       </select>
 
-      <label>Descripiton</label>
+      <label placeholder="please select size">Size</label>
       <select ref={desRef}>
-        <option>Descripiton</option>
-        <option>XYZ</option>
-        <option>XYZ</option>
-        <option>XYZ</option>
+        <option>S</option>
+        <option>M</option>
+        <option>L</option>
       </select>
       <label>Price</label>
       <input type="number" ref={priceRef} />
