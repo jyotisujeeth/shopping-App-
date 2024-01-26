@@ -40,7 +40,7 @@ const Form = () => {
       </select>
       <label>Price</label>
       <input type="number" ref={priceRef} />
-      <button onClick={addCandyHandler}>Add Candy</button>
+      <button onClick={addCandyHandler}>select</button>
     </form>
   );
 };
