@@ -5,9 +5,9 @@ import Cart from '../Cart/Cart';
 const header = () => {
   return (
     <div>
-      <Navbar className='' bg="dark" variant="dark" expand="lg">
+      <Navbar className="" bg="dark" variant="dark" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">Medicine-Store</Navbar.Brand>
+          <Navbar.Brand href="#home">Shoes Shop for kids </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
