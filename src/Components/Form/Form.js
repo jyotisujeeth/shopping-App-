@@ -39,7 +39,7 @@ const Form = () => {
         <option>M</option>
         <option>L</option>
       </select>
-      <label>Price</label>
+      <label>Set Price</label>
       <input type="number" ref={priceRef} />
       <button onClick={addCandyHandler}>select</button>
     </form>

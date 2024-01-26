@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Header />
-      <h1 style={{ textAlign: "center", color: "white" }}>Candy Site</h1>
+      <h1 style={{ textAlign: "center", color: "black" }}>Shoes Admin pages</h1>
       <Form />
       <List />
     </>
